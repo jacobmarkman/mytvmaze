@@ -1,0 +1,13 @@
+{
+  "name": "tvmaze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "tvmaze:css": "sass --watch stylemaze.scss:dist/stylemaze.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

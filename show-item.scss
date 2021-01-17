@@ -1,0 +1,50 @@
+
+.show{
+    margin: 10px;
+    flex-wrap: wrap;
+    display:grid;
+   grid-template-areas: "thumbnail"
+   "title"
+   "footer"   ;
+    background-color: $maze-color;
+    justify-content: center;
+    text-align: center;
+    img{
+        width:100%;
+    }
+    a{
+        grid-area: thumbnail;
+        text-decoration: none;
+        color: $item-font-color;
+    }
+    h3{
+        font-size: 95%;
+        grid-area: title;
+        font-weight: normal;
+        color:$item-font-color;
+    }
+    h2{
+        grid-area: second-title;
+        font-size: 95%;
+        color:$item-font-color;
+    }
+    
+.item-footer{
+    grid-area: footer;
+    border-top: 1px solid #eeeeee;
+    display: flex;
+    padding: 5px;
+    margin-top: 5px;
+
+    .heart, .rate{
+    flex:1;
+    font-size:120%;
+    color:$item-font-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+ 
+}
+}
+

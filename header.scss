@@ -1,0 +1,72 @@
+@import "colors";
+header{
+    display: flex;
+    grid-area: header;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $second-color;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 80px;
+}
+
+#tv-logo{
+    padding: 5px 5px;
+    width: 150px;
+    display: inline;
+}
+
+.search-area{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.search{
+    max-width:500px;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    outline-style: none;
+    border: none;
+    border-radius: 20px 0 0 20px;
+}
+.top-link{
+    display: flex;
+}
+::placeholder { 
+    padding-left: 10px;
+    color: $placeholder-color;
+    opacity: 1; 
+  }
+
+.search-btn{
+    padding: 0;
+    margin: -4px;
+    height: 40px;
+    display: inline;
+    outline-style: none;
+    border-radius: 0 20px 20px 0;
+    color: white;
+    border: none;
+    background-color: $maze-color;
+}
+.search-btn:hover{
+    background-color: $search-hover;
+}
+.log-link{
+    margin-left: auto;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+}
+.log-link:hover{
+    text-decoration: none;
+    color: $maze-color;
+}
+.icon-search{
+    display: inline;
+    padding: 10px 30px;
+}
